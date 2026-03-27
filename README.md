@@ -76,5 +76,13 @@ After testing several versions, this specific build proved to be the most stable
 
 ---
 
+## 📊 System Status (Idle)
+- **CPU Temp:** ~41°C
+- **RAM Usage:** ~30% of 1GB
+- **Disk:** 116GB Available (Expanded)
+- **Kernel:** 6.18.20-current-sunxi
+
+---
+
 *Status: Phase 2 - OS Installation & Configuration (Successful) ✅*
 *Next Steps: Studying OS architecture and network protocols.*
