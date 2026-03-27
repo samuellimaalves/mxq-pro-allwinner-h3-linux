@@ -65,5 +65,13 @@ After testing several versions, this specific build proved to be the most stable
 
 > **Pro Tip:** This image includes the XFCE desktop environment, making it a complete "ARM Development Station" right out of the box.
 ---
+
+## 🌐 Connectivity
+- **Ethernet:** Working out of the box (Plug & Play).
+- **Wi-Fi:** Currently unavailable (Driver issues common on these boards).
+- **Update Status:** System updated via `apt` over Ethernet.
+
+---
+
 *Status: Phase 2 - OS Installation & Configuration (Successful) ✅*
 *Next Steps: Studying OS architecture and network protocols.*
