@@ -60,7 +60,7 @@ Below are the visual milestones of this project:
 After testing several versions, this specific build proved to be the most stable for this hardware revision. You can download it below:
 
 * **System Image:** `Armbian_26.2.0_X96q_xfce_trunk_6.18.20.img.xz`
-* **Direct Download:** [🚀 Download Armbian Image](https://github.com/seu-usuario/mxq-pro-allwinner-h3-linux/releases/download/v1.0.0/Armbian_26.2.0_X96q_xfce_trunk_6.18.20.img.xz)
+* **Direct Download:** [🚀 Download Armbian Image]([https://github.com/seu-usuario/mxq-pro-allwinner-h3-linux/releases/download/v1.0.0/Armbian_26.2.0_X96q_xfce_trunk_6.18.20.img.xz](https://github.com/samuellimaalves/mxq-pro-allwinner-h3-linux/releases/download/v1.0.0/Armbian_community_26.2.0-trunk.639_Orangepipc_noble_current_6.18.20_xfce_desktop.img.xz))
 * **Flashing Tool:** [Rufus](https://rufus.ie/) (Use MBR partition scheme)
 
 > **Pro Tip:** This image includes the XFCE desktop environment, making it a complete "ARM Development Station" right out of the box.
