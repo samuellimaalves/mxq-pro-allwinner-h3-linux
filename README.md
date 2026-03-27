@@ -1,4 +1,7 @@
 # mxq-pro-allwinner-h3-linux
+
+![image_8](https://github.com/user-attachments/assets/dbb42bfe-ba5c-40e3-aabb-7cdaf8aae55e)
+
 Transforming an MXQ Pro TV Box (Allwinner H3 chip) into an Armbian Linux server.
 
 # Project: ARM Development Station 🚀
