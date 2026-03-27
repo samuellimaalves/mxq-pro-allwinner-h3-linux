@@ -38,20 +38,21 @@ Through trial and error, I discovered a specific timing requirement for this boa
 
 ---
 
-## 📸 Project Gallery
+### 🖼️ Project Gallery
+
 Below are the visual milestones of this project:
 
-### 1. Internal Board (The Truth)
-![Hardware PCB](images/pcb_board.jpg)
+### 1. The misleading specifications printed on the case
+![Misleading Specs](misleading_specs.jpg)
 
-### 2. Flashing the OS (Rufus Setup)
-![Rufus Config](images/rufus_setup.jpg)
+### 2. The real board inside (Engineering Truth)
+![Hardware PCB](real_pcb_board.jpg)
 
-### 3. First Successful Boot
-![Linux Boot](images/first_boot.jpg)
+### 3. Allwinner H3 SoC Detail
+![SoC Detail](soc_detail.jpg)
 
-### 4. System Configuration
-![System Setup](images/system_config.jpg)
+### 4. The AV port hiding the crucial reset button
+![Reset Button Location](reset_button_location.jpg)
 
 ---
 *Status: Phase 2 - OS Installation & Configuration (Successful) ✅*
