@@ -1,2 +1,58 @@
 # mxq-pro-allwinner-h3-linux
 Transforming an MXQ Pro TV Box (Allwinner H3 chip) into an Armbian Linux server.
+
+# Project: ARM Development Station 🚀
+### Hardware Reverse Engineering & Linux Porting
+
+I started this project to repurpose a generic "MXQ Pro 4K" Android Box into a low-level learning station for ARM Assembly and C programming. This repository documents the journey from a locked Android device to a functional Linux ARM Server.
+
+---
+
+## 🔍 Phase 1: Hardware Identification (Completed)
+After disassembling the unit, I discovered that the technical specifications printed on the box were misleading. Here is the actual hardware found inside:
+
+* **SoC:** Allwinner H3 (Quad-core ARM Cortex-A7)
+* **RAM:** 1GB DDR3 (SK hynix)
+* **Internal Storage:** 8GB eMMC (Queenston)
+* **Board Model:** Q44_V4.0_20200602
+* **Current OS:** Armbian 26.2.0 (Kernel 6.18.20)
+
+---
+
+## 🛠️ Phase 2: The Boot Breakthrough
+The main challenge was bypassing the stock Android OS to boot from a 128GB MicroSD card. 
+
+### The "Secret Sauce" (Hardware Timing):
+Through trial and error, I discovered a specific timing requirement for this board revision:
+1.  Connect the power cable **first**.
+2.  **Immediately** press the reset button (inside the AV port).
+3.  This interrupts the standard bootloader at the exact millisecond the Allwinner H3 scans the SD slot.
+
+---
+
+## ⚙️ Setup Configuration
+* **Image:** Armbian XFCE (Developer Preview)
+* **Flashing Tool:** Rufus (MBR Partition Scheme)
+* **Locale:** pt_BR.UTF-8
+* **Timezone:** America/Fortaleza
+
+---
+
+## 📸 Project Gallery
+Below are the visual milestones of this project:
+
+### 1. Internal Board (The Truth)
+![Hardware PCB](images/pcb_board.jpg)
+
+### 2. Flashing the OS (Rufus Setup)
+![Rufus Config](images/rufus_setup.jpg)
+
+### 3. First Successful Boot
+![Linux Boot](images/first_boot.jpg)
+
+### 4. System Configuration
+![System Setup](images/system_config.jpg)
+
+---
+*Status: Phase 2 - OS Installation & Configuration (Successful) ✅*
+*Next Steps: Studying OS architecture and network protocols.*
